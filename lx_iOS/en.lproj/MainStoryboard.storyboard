@@ -29,7 +29,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="wJ1-h4-MJr">
-                        <barButtonItem key="leftBarButtonItem" systemItem="fastForward" id="kGl-vY-M0p">
+                        <barButtonItem key="leftBarButtonItem" image="ButtonMenu.png" id="kGl-vY-M0p">
                             <connections>
                                 <action selector="revealSidebar:" destination="HyU-ve-DVk" id="DAG-qz-0sL"/>
                             </connections>
@@ -102,6 +102,9 @@
             <point key="canvasLocation" x="124" y="-637"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ButtonMenu.png" width="22" height="17"/>
+    </resources>
     <classes>
         <class className="IIViewDeckController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/IIViewDeckController.h"/>
