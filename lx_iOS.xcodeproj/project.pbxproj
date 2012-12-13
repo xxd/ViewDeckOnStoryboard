@@ -22,6 +22,9 @@
 		4D62D7D016797B0500CB0334 /* TimelineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62D7CF16797B0500CB0334 /* TimelineTableViewController.m */; };
 		4D62D7D416797E0C00CB0334 /* ButtonMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D62D7D216797E0C00CB0334 /* ButtonMenu.png */; };
 		4D62D7D516797E0C00CB0334 /* ButtonMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D62D7D316797E0C00CB0334 /* ButtonMenu@2x.png */; };
+		4D62D7D816797F8900CB0334 /* revealed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D62D7D616797F8900CB0334 /* revealed.png */; };
+		4D62D7D916797F8900CB0334 /* hidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D62D7D716797F8900CB0334 /* hidden.png */; };
+		4D62D7DC1679830C00CB0334 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D62D7DB1679830C00CB0334 /* README.md */; };
 		F7DC040FDFD04B1DB426D8E3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A734CAFF247F4E2B810DD76A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +51,9 @@
 		4D62D7CF16797B0500CB0334 /* TimelineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimelineTableViewController.m; path = lx_iOS/TimelineTableViewController.m; sourceTree = "<group>"; };
 		4D62D7D216797E0C00CB0334 /* ButtonMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonMenu.png; sourceTree = "<group>"; };
 		4D62D7D316797E0C00CB0334 /* ButtonMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonMenu@2x.png"; sourceTree = "<group>"; };
+		4D62D7D616797F8900CB0334 /* revealed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = revealed.png; sourceTree = "<group>"; };
+		4D62D7D716797F8900CB0334 /* hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hidden.png; sourceTree = "<group>"; };
+		4D62D7DB1679830C00CB0334 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		546CAB95EC7F45398C2F9725 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		A734CAFF247F4E2B810DD76A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,6 +112,7 @@
 				4D62D7D116797DFC00CB0334 /* Structure */,
 				4D62D7CE16797B0500CB0334 /* TimelineTableViewController.h */,
 				4D62D7CF16797B0500CB0334 /* TimelineTableViewController.m */,
+				4D62D7DA167982F300CB0334 /* Doc */,
 			);
 			path = lx_iOS;
 			sourceTree = "<group>";
@@ -135,6 +142,16 @@
 				4D62D7C81679768800CB0334 /* InitViewController.m */,
 			);
 			name = Structure;
+			sourceTree = "<group>";
+		};
+		4D62D7DA167982F300CB0334 /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				4D62D7D616797F8900CB0334 /* revealed.png */,
+				4D62D7D716797F8900CB0334 /* hidden.png */,
+				4D62D7DB1679830C00CB0334 /* README.md */,
+			);
+			name = Doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +213,9 @@
 				4D62D7B01679716400CB0334 /* MainStoryboard.storyboard in Resources */,
 				4D62D7D416797E0C00CB0334 /* ButtonMenu.png in Resources */,
 				4D62D7D516797E0C00CB0334 /* ButtonMenu@2x.png in Resources */,
+				4D62D7D816797F8900CB0334 /* revealed.png in Resources */,
+				4D62D7D916797F8900CB0334 /* hidden.png in Resources */,
+				4D62D7DC1679830C00CB0334 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
