@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TimelineTableViewController.h
 //  lx_iOS
 //
 //  Created by xxd on 12-12-13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TimelineTableViewController : UITableViewController
 
 @end
